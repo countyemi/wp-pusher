@@ -60,6 +60,7 @@ li {
     flex-shrink: 0;
     margin-top: 41px;
     margin-left: 48px;
+    margin-bottom: 24px;
   
 }
 
@@ -69,8 +70,8 @@ li {
     height: 2px;
     flex-shrink: 0;
     background: #F5F7FA;
-    /* margin-bottom: 36px; */
-    margin-top: 24px;
+    margin-bottom: 33px;
+    
 
 }
 
@@ -82,7 +83,7 @@ li {
     flex-shrink: 0;
     background: #F5F7FA;
     margin-top: 41px;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
 }
 .inside-rectangle3 {
     width: 580px;
@@ -99,6 +100,7 @@ flex-shrink: 0;
 
 margin: 0 auto;
 }
+
 .panel-divs {
     display: flex;
    justify-content: center;
@@ -106,9 +108,8 @@ margin: 0 auto;
    
    width: 892px;
    height: 795px;
-   background-color: #F5F8FA;
-   
-   margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-top: 85px;
    
 }
 .panel-left {
@@ -116,6 +117,7 @@ margin: 0 auto;
     height: 795px;
     flex-shrink: 0;
     background-color: #FFFFFF;
+   
     /* margin-bottom: 50px; */
 
 }
@@ -297,8 +299,8 @@ background: #FFF;
 
 
 .form-container{
-    margin-left: 49px;
-    margin-top: 0;
+    padding-left: 49px;
+   
 }
 
 .imgcontainer {
@@ -317,6 +319,7 @@ background: #FFF;
     position: relative;
     bottom: 45px;
     right: 60px;
+    left: -68px;
    }
    .img-inside-container{
     position: absolute;
@@ -326,7 +329,7 @@ background: #FFF;
 
    .header-container{display: flex;
     align-items:center;
-    height: fit-content;
+    height: 30px;
 margin-bottom: 9px;}
 
 .abs {
@@ -371,11 +374,13 @@ flex-shrink: 0;
 }
 .info-box1{
     margin-top: -10px;
-    margin-left: -50px;
+    margin-left: 40px;
     width: 220px;
 height: 32px;
 flex-shrink: 0;
 margin-bottom: 9px;
+position: absolute;
+
 }
 .info-box2{
     margin-left: 10px;
@@ -390,7 +395,7 @@ margin-bottom: 9px;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 892px;
-    margin-top: -40px;
+    
 }
 .user-input{
     margin-bottom: 25px;
@@ -457,6 +462,10 @@ padding-left: 13px;
 
 
 
+
+.header2{
+    margin-bottom: 21px;
+}
 
 .card-details {
     display: flex;
@@ -553,6 +562,16 @@ letter-spacing: -0.01px;
     justify-content: center;
     margin-bottom: 46.9px;
     margin-top: 20px;
+}
+
+.underline{
+    
+        border-bottom: 2px solid  #636B6F; 
+        display: inline-block; 
+        width: 100px;
+        
+        
+      
 }
 
 .bottom{
