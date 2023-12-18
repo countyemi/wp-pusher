@@ -460,6 +460,11 @@ padding-left: 13px;
 }
 
 
+input:hover {
+    color: green;
+    border: 1px solid;
+    
+  }
 
 
 
